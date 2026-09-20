@@ -4,7 +4,11 @@
 
 Python · python-telegram-bot · APScheduler · Google Sheets · JSON · openpyxl · Matplotlib
 
-[Русское описание](docs/README.ru.md) · [Security & data handling](SECURITY.md)
+[Русское описание](docs/README.ru.md) · [Security & data handling](SECURITY.md) · [All rights reserved](LICENSE)
+
+> **Portfolio review only — not open source.** Reuse requires written permission
+> from the relevant rights holder(s), except where applicable law or GitHub's terms
+> provide otherwise. Attribution alone is not permission. See [LICENSE](LICENSE).
 
 ## Overview
 
@@ -76,6 +80,7 @@ requirements.txt             Pinned application dependencies
 .env.example                 Empty configuration template — no credentials
 .gitignore                   Excludes secrets, runtime data and exports
 SECURITY.md                  Deployment cautions and privacy guidance
+LICENSE                      All-rights-reserved copyright and permissions notice
 docs/README.ru.md             Russian project overview
 tests/test_source_safety.py   Offline source/configuration checks
 ```
@@ -84,6 +89,9 @@ The application is intentionally kept as a single source file in this snapshot.
 No production database, logs, photographs, keys or original Git history are included.
 
 ## Safe local setup
+
+These instructions describe the configuration for rights holders and authorized
+users. They do not grant a license to run or reuse the code; see [LICENSE](LICENSE).
 
 Use **a separate test bot, a blank test spreadsheet and a new service-account key**.
 Do not connect this snapshot to a live factory environment just to try it out.
