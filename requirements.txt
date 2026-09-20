@@ -1,0 +1,7 @@
+# Зависимости бота заявок завода.
+# Установка на новом ПК:  pip install -r requirements.txt
+
+python-telegram-bot[job-queue]==22.8   # сам бот + планировщик (напоминания, ППР, рейтинг)
+gspread==6.2.1                          # запись в Google Sheets
+openpyxl==3.1.5                         # экспорт в Excel (.xlsx); без неё будет только .csv
+matplotlib==3.11.1                      # графики аналитики (кнопка «📈 Графики»)
